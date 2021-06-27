@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-vmr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Compute a variance-to-mean ratio (VMR) incrementally.",
   "license": "Apache-2.0",
   "author": {
