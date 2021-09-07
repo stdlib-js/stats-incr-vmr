@@ -173,6 +173,24 @@ console.log( accumulator() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
+-   [`@stdlib/stats/incr/mvmr`][@stdlib/stats/incr/mvmr]: compute a moving variance-to-mean ratio (VMR) incrementally.
+-   [`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]: compute an unbiased sample variance incrementally.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -233,6 +251,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
 [sample-variance]: https://en.wikipedia.org/wiki/Variance
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+
+[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+
+<!-- </related-links> -->
 
 </section>
 
