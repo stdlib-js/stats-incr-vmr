@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-number@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var n=t.isPrimitive,s=r,i=e;var m=function(t){var r,e,m,a;if(m=0,a=0,arguments.length){if(!n(t))throw new TypeError(i("invalid argument. Must provide a number. Value: `%s`.",t));return e=t,d}return e=0,l;function l(t){return 0===arguments.length?0===a?null:1===a?s(m)?NaN:0/e:m/(a-1)/e:(m+=(r=t-e)*(t-(e+=r/(a+=1))),a<2?s(m)?NaN:0/e:m/(a-1)/e)}function d(t){return 0===arguments.length?0===a?null:m/a/e:(m+=(r=t-e)*r)/(a+=1)/e}};export{m as default};
+//# sourceMappingURL=index.mjs.map
