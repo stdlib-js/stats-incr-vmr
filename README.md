@@ -30,10 +30,14 @@ The [unbiased sample variance][sample-variance] is defined as
 
 <!-- <equation class="equation" label="eq:unbiased_sample_variance" align="center" raw="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" alt="Equation for the unbiased sample variance."> -->
 
-<div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
+```math
+s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2
+```
+
+<!-- <div class="equation" align="center" data-raw-text="s^2 = \frac{1}{n-1} \sum_{i=0}^{n-1} ( x_i - \bar{x} )^2" data-equation="eq:unbiased_sample_variance">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@7fe559e94716008fb414ec7c6b3d0e3e1194f2ba/lib/node_modules/@stdlib/stats/incr/vmr/docs/img/equation_unbiased_sample_variance.svg" alt="Equation for the unbiased sample variance.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,10 +45,14 @@ and the [arithmetic mean][arithmetic-mean] is defined as
 
 <!-- <equation class="equation" label="eq:arithmetic_mean" align="center" raw="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" alt="Equation for the arithmetic mean."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
+```math
+\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x} = \frac{1}{n} \sum_{i=0}^{n-1} x_i" data-equation="eq:arithmetic_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@86f8c49b0e95ee794f0b098b8d17444c0cbeea0a/lib/node_modules/@stdlib/stats/incr/vmr/docs/img/equation_arithmetic_mean.svg" alt="Equation for the arithmetic mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -52,10 +60,14 @@ The [variance-to-mean ratio][variance-to-mean-ratio] (VMR) is thus defined as
 
 <!-- <equation class="equation" label="eq:variance_to_mean_ratio" align="center" raw="D = \frac{s^2}{\bar{x}}" alt="Equation for the variance-to-mean ratio (VMR)."> -->
 
-<div class="equation" align="center" data-raw-text="D = \frac{s^2}{\bar{x}}" data-equation="eq:variance_to_mean_ratio">
+```math
+D = \frac{s^2}{\bar{x}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="D = \frac{s^2}{\bar{x}}" data-equation="eq:variance_to_mean_ratio">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@86f8c49b0e95ee794f0b098b8d17444c0cbeea0a/lib/node_modules/@stdlib/stats/incr/vmr/docs/img/equation_variance_to_mean_ratio.svg" alt="Equation for the variance-to-mean ratio (VMR).">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -63,14 +75,30 @@ The [variance-to-mean ratio][variance-to-mean-ratio] (VMR) is thus defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-vmr
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@deno/mod.js';
+var incrvmr = require( '@stdlib/stats-incr-vmr' );
 ```
 
 #### incrvmr( \[mean] )
@@ -143,8 +171,8 @@ D = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var incrvmr = require( '@stdlib/stats-incr-vmr' );
 
 var accumulator;
 var v;
@@ -190,7 +218,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -234,7 +262,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -258,11 +286,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/deno
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr/tree/deno
+[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/deno
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
 
 <!-- </related-links> -->
 
