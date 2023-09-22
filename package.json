@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-vmr",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Compute a variance-to-mean ratio (VMR) incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-number": "^0.0.7",
+    "@stdlib/assert-is-number": "^0.1.0",
     "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/string-format": "^0.0.3",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
