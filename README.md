@@ -93,7 +93,7 @@ D = \frac{s^2}{\bar{x}}
 ## Usage
 
 ```javascript
-import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@esm/index.mjs';
+import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@v0.1.0-esm/index.mjs';
 ```
 
 #### incrvmr( \[mean] )
@@ -172,7 +172,7 @@ D = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@esm/index.mjs';
+import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@v0.1.0-esm/index.mjs';
 
 var accumulator;
 var v;
