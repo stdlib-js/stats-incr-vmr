@@ -93,6 +93,11 @@ D = \frac{s^2}{\bar{x}}
 ## Usage
 
 ```javascript
+import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-vmr/tags). For example,
+
+```javascript
 import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@v0.2.2-esm/index.mjs';
 ```
 
@@ -172,7 +177,7 @@ D = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@v0.2.2-esm/index.mjs';
+import incrvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-vmr@esm/index.mjs';
 
 var accumulator;
 var v;
